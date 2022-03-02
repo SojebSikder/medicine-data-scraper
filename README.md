@@ -3,5 +3,5 @@
 ## Scrap medicine data from web
 
 ```
-pip install requests beautifulsoup4 lxml
+pip install -r requirements.txt
 ```
