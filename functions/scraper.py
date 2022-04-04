@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup as soup
 class Scraper:
 
     # Scrap data from the website
-    def scrap_data(url, el="div", attr="class", value="col-xs-12 data-row-top"):
+    def scrap_data(url, value, el="div", attr="class"):
         # url = 'https://medex.com.bd/companies/106/incepta-pharmaceuticals-ltd/brands'
         html = requests.get(url=url)
 
